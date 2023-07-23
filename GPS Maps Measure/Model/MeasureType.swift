@@ -8,10 +8,11 @@ import Foundation
 enum MeasureType: String {
     //Distance
     case DISTANCE
-    //Circle
-    case CIRCLE
     //Poi
     case POI
     //Area
     case AREA
+    //Circle
+    case CIRCLE
+   
 }

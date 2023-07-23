@@ -51,22 +51,18 @@ class BaseMeasureMapController: UIViewController {
 
         let alertVC = UIAlertController(title: "Select type", message: "", preferredStyle: .actionSheet)
         alertVC.addAction(UIAlertAction(title: "Area", style: .default, handler: { action in
-            DDLogVerbose("Area Selected")
             self.measureTypeSelected = .AREA
             self.performSegue(withIdentifier: identifier, sender: sender)
         }))
         alertVC.addAction(UIAlertAction(title: "Distance", style: .default, handler: { action in
-            DDLogVerbose("Distance Selected")
             self.measureTypeSelected = .DISTANCE
             self.performSegue(withIdentifier: identifier, sender: sender)
         }))
         alertVC.addAction(UIAlertAction(title: "Circle", style: .default, handler: { action in
-            DDLogVerbose("Circle Selected")
             self.measureTypeSelected = .CIRCLE
             self.performSegue(withIdentifier: identifier, sender: sender)
         }))
         alertVC.addAction(UIAlertAction(title: "Marker", style: .default, handler: { action in
-            DDLogVerbose("Marker Selected")
             self.measureTypeSelected = .POI
             self.performSegue(withIdentifier: identifier, sender: sender)
         }))

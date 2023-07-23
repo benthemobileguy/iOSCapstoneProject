@@ -208,8 +208,8 @@
 			);
 			mainGroup = 81112FEB286A6C1A006799DE;
 			packageReferences = (
-				8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack.git" */,
-				81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift.git" */,
+				8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+				81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift" */,
 			);
 			productRefGroup = 81112FF5286A6C1A006799DE /* Products */;
 			projectDirPath = "";
@@ -403,6 +403,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98M95B2R24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GPS Maps Measure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -416,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onedayofcode.maps-measure";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benji.maps-measure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,6 +432,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98M95B2R24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GPS Maps Measure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onedayofcode.maps-measure";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benji.maps-measure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,7 +478,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack.git" */ = {
+		8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
 			requirement = {
@@ -484,7 +486,7 @@
 				version = 3.7.4;
 			};
 		};
-		81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift.git" */ = {
+		81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mapbox/turf-swift.git";
 			requirement = {
@@ -497,12 +499,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		8111300C286AB4AD006799DE /* CocoaLumberjackSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack.git" */;
+			package = 8111300B286AB4AD006799DE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
 			productName = CocoaLumberjackSwift;
 		};
 		81C393E628782CAC00E58DB4 /* Turf */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift.git" */;
+			package = 81C393E528782CAC00E58DB4 /* XCRemoteSwiftPackageReference "turf-swift" */;
 			productName = Turf;
 		};
 /* End XCSwiftPackageProductDependency section */
